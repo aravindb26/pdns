@@ -1,4 +1,4 @@
-dnspython>=2.2.0
+dnspython>=2.6.0rc1
 pytest
 pytest-xdist
 libnacl>=1.4.3,<1.7
