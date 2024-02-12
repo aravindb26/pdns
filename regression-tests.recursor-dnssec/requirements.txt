@@ -1,4 +1,4 @@
-dnspython>=1.11
+dnspython>=2.6.0rc1
 pytest
 protobuf>=2.5; sys_platform != 'darwin'
 protobuf>=3.0; sys_platform == 'darwin'
