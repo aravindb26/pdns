@@ -3,3 +3,4 @@ pytest
 parameterized
 mysql-connector
 psycopg2
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
