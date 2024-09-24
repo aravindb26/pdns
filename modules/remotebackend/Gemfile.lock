@@ -8,7 +8,7 @@ GEM
       ffi
     json (2.5.1)
     sqlite3 (1.4.2)
-    webrick (1.7.0)
+    webrick (1.8.2)
     zeromqrb (0.1.3)
       ffi-rzmq
 
@@ -18,7 +18,7 @@ PLATFORMS
 DEPENDENCIES
   json
   sqlite3
-  webrick
+  webrick (>= 1.8.2)
   zeromqrb
 
 BUNDLED WITH
