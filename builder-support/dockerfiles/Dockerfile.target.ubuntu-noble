@@ -1,7 +1,7 @@
 # First do the source builds
 @INCLUDE Dockerfile.target.sdist
 
-FROM ubuntu:noble AS dist-base
+FROM ubuntu:24.10 AS dist-base
 
 ARG BUILDER_CACHE_BUSTER=
 ARG APT_URL
